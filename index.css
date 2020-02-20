@@ -1,0 +1,23 @@
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  border: 1px solid white;
+  border-radius: 7px;
+  cursor: pointer;
+  outline: none;
+  padding: 5px 5px;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+
+}
+
+button:hover{
+  background-color:rgba(0,0,0,1);
+}
